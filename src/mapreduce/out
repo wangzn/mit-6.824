@@ -1,0 +1,892 @@
+2017/02/09 20:45:34 method CleanupFiles has wrong number of ins: 1
+2017/02/09 20:45:34 method Lock has wrong number of ins: 1
+2017/02/09 20:45:34 method Unlock has wrong number of ins: 1
+2017/02/09 20:45:34 method Wait has wrong number of ins: 1
+/var/tmp/824-502/mr20311-master: Starting Map/Reduce task test
+2017/02/09 20:45:34 method Lock has wrong number of ins: 1
+2017/02/09 20:45:34 method Lock has wrong number of ins: 1
+Schedule: 100 Map tasks (50 I/Os)
+2017/02/09 20:45:34 method Unlock has wrong number of ins: 1
+Do schedule...
+2017/02/09 20:45:34 method Unlock has wrong number of ins: 1
+add new worker /var/tmp/824-502/mr20311-worker1 to idle chan 
+add new worker /var/tmp/824-502/mr20311-worker0 to idle chan 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 0 
+Valid worker /var/tmp/824-502/mr20311-worker0 doing task 1 
+/var/tmp/824-502/mr20311-worker1: given Map task #0 on file 824-mrinput-0.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker0: given Map task #1 on file 824-mrinput-1.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker0: Map task #1 done
+Task 1 done with no error 
+After insert done chan
+task done, id 1 
+Valid worker /var/tmp/824-502/mr20311-worker0 doing task 2 
+/var/tmp/824-502/mr20311-worker0: given Map task #2 on file 824-mrinput-2.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #0 done
+Task 0 done with no error 
+After insert done chan
+task done, id 0 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 3 
+/var/tmp/824-502/mr20311-worker1: given Map task #3 on file 824-mrinput-3.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker0: Map task #2 done
+Task 2 done with no error 
+After insert done chan
+task done, id 2 
+Valid worker /var/tmp/824-502/mr20311-worker0 doing task 4 
+/var/tmp/824-502/mr20311-worker1: Map task #3 done
+/var/tmp/824-502/mr20311-worker0: given Map task #4 on file 824-mrinput-4.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker0: Map task #4 done
+Task 4 done with no error 
+After insert done chan
+task done, id 4 
+Valid worker /var/tmp/824-502/mr20311-worker0 doing task 5 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 6 
+Task 3 done with no error 
+After insert done chan
+task done, id 3 
+/var/tmp/824-502/mr20311-worker1: given Map task #6 on file 824-mrinput-6.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker0: given Map task #5 on file 824-mrinput-5.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker0: Map task #5 done
+Task 5 done with no error 
+After insert done chan
+task done, id 5 
+Valid worker /var/tmp/824-502/mr20311-worker0 doing task 7 
+/var/tmp/824-502/mr20311-worker0: given Map task #7 on file 824-mrinput-7.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #6 done
+Task 6 done with no error 
+After insert done chan
+task done, id 6 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 8 
+/var/tmp/824-502/mr20311-worker1: given Map task #8 on file 824-mrinput-8.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker0: Map task #7 done
+Task 7 done with no error 
+After insert done chan
+task done, id 7 
+Valid worker /var/tmp/824-502/mr20311-worker0 doing task 9 
+/var/tmp/824-502/mr20311-worker1: Map task #8 done
+/var/tmp/824-502/mr20311-worker0: given Map task #9 on file 824-mrinput-9.txt (nios: 50)
+Task 8 done with no error 
+After insert done chan
+task done, id 8 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 10 
+/var/tmp/824-502/mr20311-worker1: given Map task #10 on file 824-mrinput-10.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker0: Map task #9 done
+/var/tmp/824-502/mr20311-worker1: Map task #10 done
+Task 9 done with no error 
+After insert done chan
+task done, id 9 
+Valid worker /var/tmp/824-502/mr20311-worker0 doing task 11 
+Task 10 done with no error 
+After insert done chan
+task done, id 10 
+/var/tmp/824-502/mr20311-worker0: given Map task #11 on file 824-mrinput-11.txt (nios: 50)
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 12 
+/var/tmp/824-502/mr20311-worker1: given Map task #12 on file 824-mrinput-12.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker0: Map task #11 done
+Task 11 done with no error 
+After insert done chan
+task done, id 11 
+Valid worker /var/tmp/824-502/mr20311-worker0 doing task 13 
+/var/tmp/824-502/mr20311-worker0: given Map task #13 on file 824-mrinput-13.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #12 done
+Task 12 done with no error 
+After insert done chan
+task done, id 12 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 14 
+/var/tmp/824-502/mr20311-worker1: given Map task #14 on file 824-mrinput-14.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker0: Map task #13 done
+Task 13 done with no error 
+After insert done chan
+task done, id 13 
+Valid worker /var/tmp/824-502/mr20311-worker0 doing task 15 
+/var/tmp/824-502/mr20311-worker0: given Map task #15 on file 824-mrinput-15.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #14 done
+Task 14 done with no error 
+After insert done chan
+task done, id 14 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 16 
+/var/tmp/824-502/mr20311-worker1: given Map task #16 on file 824-mrinput-16.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #16 done
+Task 16 done with no error 
+After insert done chan
+task done, id 16 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 17 
+/var/tmp/824-502/mr20311-worker1: given Map task #17 on file 824-mrinput-17.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker0: Map task #15 done
+Task 15 done with no error 
+After insert done chan
+task done, id 15 
+Valid worker /var/tmp/824-502/mr20311-worker0 doing task 18 
+/var/tmp/824-502/mr20311-worker0: given Map task #18 on file 824-mrinput-18.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #17 done
+Task 17 done with no error 
+After insert done chan
+task done, id 17 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 19 
+/var/tmp/824-502/mr20311-worker1: given Map task #19 on file 824-mrinput-19.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker0: Map task #18 done
+Task 18 done with no error 
+After insert done chan
+task done, id 18 
+Valid worker /var/tmp/824-502/mr20311-worker0 doing task 20 
+Task 20 fail with worker /var/tmp/824-502/mr20311-worker0 
+/var/tmp/824-502/mr20311-worker1: Map task #19 done
+Task 19 done with no error 
+After insert done chan
+task done, id 19 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 21 
+/var/tmp/824-502/mr20311-worker1: given Map task #21 on file 824-mrinput-21.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #21 done
+Task 21 done with no error 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 22 
+After insert done chan
+task done, id 21 
+/var/tmp/824-502/mr20311-worker1: given Map task #22 on file 824-mrinput-22.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #22 done
+Task 22 done with no error 
+After insert done chan
+task done, id 22 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 23 
+/var/tmp/824-502/mr20311-worker1: given Map task #23 on file 824-mrinput-23.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #23 done
+Task 23 done with no error 
+After insert done chan
+task done, id 23 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 24 
+/var/tmp/824-502/mr20311-worker1: given Map task #24 on file 824-mrinput-24.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #24 done
+Task 24 done with no error 
+After insert done chan
+task done, id 24 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 25 
+/var/tmp/824-502/mr20311-worker1: given Map task #25 on file 824-mrinput-25.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #25 done
+Task 25 done with no error 
+After insert done chan
+task done, id 25 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 26 
+/var/tmp/824-502/mr20311-worker1: given Map task #26 on file 824-mrinput-26.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #26 done
+Task 26 done with no error 
+After insert done chan
+task done, id 26 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 27 
+/var/tmp/824-502/mr20311-worker1: given Map task #27 on file 824-mrinput-27.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #27 done
+Task 27 done with no error 
+After insert done chan
+task done, id 27 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 28 
+/var/tmp/824-502/mr20311-worker1: given Map task #28 on file 824-mrinput-28.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #28 done
+Task 28 done with no error 
+After insert done chan
+task done, id 28 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 29 
+/var/tmp/824-502/mr20311-worker1: given Map task #29 on file 824-mrinput-29.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #29 done
+Task 29 done with no error 
+After insert done chan
+task done, id 29 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 30 
+/var/tmp/824-502/mr20311-worker1: given Map task #30 on file 824-mrinput-30.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #30 done
+Task 30 done with no error 
+After insert done chan
+task done, id 30 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 31 
+/var/tmp/824-502/mr20311-worker1: given Map task #31 on file 824-mrinput-31.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #31 done
+Task 31 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 32 
+task done, id 31 
+/var/tmp/824-502/mr20311-worker1: given Map task #32 on file 824-mrinput-32.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #32 done
+Task 32 done with no error 
+After insert done chan
+task done, id 32 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 33 
+/var/tmp/824-502/mr20311-worker1: given Map task #33 on file 824-mrinput-33.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #33 done
+Task 33 done with no error 
+After insert done chan
+task done, id 33 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 34 
+/var/tmp/824-502/mr20311-worker1: given Map task #34 on file 824-mrinput-34.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #34 done
+Task 34 done with no error 
+After insert done chan
+task done, id 34 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 35 
+/var/tmp/824-502/mr20311-worker1: given Map task #35 on file 824-mrinput-35.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #35 done
+Task 35 done with no error 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 36 
+task done, id 35 
+After insert done chan
+/var/tmp/824-502/mr20311-worker1: given Map task #36 on file 824-mrinput-36.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #36 done
+Task 36 done with no error 
+After insert done chan
+task done, id 36 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 37 
+/var/tmp/824-502/mr20311-worker1: given Map task #37 on file 824-mrinput-37.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #37 done
+Task 37 done with no error 
+After insert done chan
+task done, id 37 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 38 
+/var/tmp/824-502/mr20311-worker1: given Map task #38 on file 824-mrinput-38.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #38 done
+Task 38 done with no error 
+After insert done chan
+task done, id 38 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 39 
+/var/tmp/824-502/mr20311-worker1: given Map task #39 on file 824-mrinput-39.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #39 done
+Task 39 done with no error 
+After insert done chan
+task done, id 39 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 40 
+/var/tmp/824-502/mr20311-worker1: given Map task #40 on file 824-mrinput-40.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #40 done
+Task 40 done with no error 
+After insert done chan
+task done, id 40 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 41 
+/var/tmp/824-502/mr20311-worker1: given Map task #41 on file 824-mrinput-41.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #41 done
+Task 41 done with no error 
+After insert done chan
+task done, id 41 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 42 
+/var/tmp/824-502/mr20311-worker1: given Map task #42 on file 824-mrinput-42.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #42 done
+Task 42 done with no error 
+After insert done chan
+task done, id 42 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 43 
+/var/tmp/824-502/mr20311-worker1: given Map task #43 on file 824-mrinput-43.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #43 done
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 44 
+Task 43 done with no error 
+/var/tmp/824-502/mr20311-worker1: given Map task #44 on file 824-mrinput-44.txt (nios: 50)
+task done, id 43 
+After insert done chan
+/var/tmp/824-502/mr20311-worker1: Map task #44 done
+Task 44 done with no error 
+After insert done chan
+task done, id 44 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 45 
+/var/tmp/824-502/mr20311-worker1: given Map task #45 on file 824-mrinput-45.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #45 done
+Task 45 done with no error 
+After insert done chan
+task done, id 45 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 46 
+/var/tmp/824-502/mr20311-worker1: given Map task #46 on file 824-mrinput-46.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #46 done
+Task 46 done with no error 
+After insert done chan
+task done, id 46 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 47 
+/var/tmp/824-502/mr20311-worker1: given Map task #47 on file 824-mrinput-47.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #47 done
+Task 47 done with no error 
+After insert done chan
+task done, id 47 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 48 
+/var/tmp/824-502/mr20311-worker1: given Map task #48 on file 824-mrinput-48.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #48 done
+Task 48 done with no error 
+After insert done chan
+task done, id 48 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 49 
+/var/tmp/824-502/mr20311-worker1: given Map task #49 on file 824-mrinput-49.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #49 done
+Task 49 done with no error 
+After insert done chan
+task done, id 49 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 50 
+/var/tmp/824-502/mr20311-worker1: given Map task #50 on file 824-mrinput-50.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #50 done
+Task 50 done with no error 
+After insert done chan
+task done, id 50 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 51 
+/var/tmp/824-502/mr20311-worker1: given Map task #51 on file 824-mrinput-51.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #51 done
+Task 51 done with no error 
+After insert done chan
+task done, id 51 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 52 
+/var/tmp/824-502/mr20311-worker1: given Map task #52 on file 824-mrinput-52.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #52 done
+Task 52 done with no error 
+After insert done chan
+task done, id 52 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 53 
+/var/tmp/824-502/mr20311-worker1: given Map task #53 on file 824-mrinput-53.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #53 done
+Task 53 done with no error 
+After insert done chan
+task done, id 53 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 54 
+/var/tmp/824-502/mr20311-worker1: given Map task #54 on file 824-mrinput-54.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #54 done
+Task 54 done with no error 
+After insert done chan
+task done, id 54 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 55 
+/var/tmp/824-502/mr20311-worker1: given Map task #55 on file 824-mrinput-55.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #55 done
+Task 55 done with no error 
+After insert done chan
+task done, id 55 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 56 
+/var/tmp/824-502/mr20311-worker1: given Map task #56 on file 824-mrinput-56.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #56 done
+Task 56 done with no error 
+After insert done chan
+task done, id 56 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 57 
+/var/tmp/824-502/mr20311-worker1: given Map task #57 on file 824-mrinput-57.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #57 done
+Task 57 done with no error 
+After insert done chan
+task done, id 57 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 58 
+/var/tmp/824-502/mr20311-worker1: given Map task #58 on file 824-mrinput-58.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #58 done
+Task 58 done with no error 
+After insert done chan
+task done, id 58 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 59 
+/var/tmp/824-502/mr20311-worker1: given Map task #59 on file 824-mrinput-59.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #59 done
+Task 59 done with no error 
+After insert done chan
+task done, id 59 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 60 
+/var/tmp/824-502/mr20311-worker1: given Map task #60 on file 824-mrinput-60.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #60 done
+Task 60 done with no error 
+After insert done chan
+task done, id 60 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 61 
+/var/tmp/824-502/mr20311-worker1: given Map task #61 on file 824-mrinput-61.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #61 done
+Task 61 done with no error 
+After insert done chan
+task done, id 61 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 62 
+/var/tmp/824-502/mr20311-worker1: given Map task #62 on file 824-mrinput-62.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #62 done
+Task 62 done with no error 
+After insert done chan
+task done, id 62 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 63 
+/var/tmp/824-502/mr20311-worker1: given Map task #63 on file 824-mrinput-63.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #63 done
+Task 63 done with no error 
+After insert done chan
+task done, id 63 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 64 
+/var/tmp/824-502/mr20311-worker1: given Map task #64 on file 824-mrinput-64.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #64 done
+Task 64 done with no error 
+After insert done chan
+task done, id 64 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 65 
+/var/tmp/824-502/mr20311-worker1: given Map task #65 on file 824-mrinput-65.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #65 done
+Task 65 done with no error 
+After insert done chan
+task done, id 65 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 66 
+/var/tmp/824-502/mr20311-worker1: given Map task #66 on file 824-mrinput-66.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #66 done
+Task 66 done with no error 
+After insert done chan
+task done, id 66 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 67 
+/var/tmp/824-502/mr20311-worker1: given Map task #67 on file 824-mrinput-67.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #67 done
+Task 67 done with no error 
+After insert done chan
+task done, id 67 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 68 
+/var/tmp/824-502/mr20311-worker1: given Map task #68 on file 824-mrinput-68.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #68 done
+Task 68 done with no error 
+After insert done chan
+task done, id 68 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 69 
+/var/tmp/824-502/mr20311-worker1: given Map task #69 on file 824-mrinput-69.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #69 done
+Task 69 done with no error 
+After insert done chan
+task done, id 69 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 70 
+/var/tmp/824-502/mr20311-worker1: given Map task #70 on file 824-mrinput-70.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #70 done
+Task 70 done with no error 
+After insert done chan
+task done, id 70 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 71 
+/var/tmp/824-502/mr20311-worker1: given Map task #71 on file 824-mrinput-71.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #71 done
+Task 71 done with no error 
+After insert done chan
+task done, id 71 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 72 
+/var/tmp/824-502/mr20311-worker1: given Map task #72 on file 824-mrinput-72.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #72 done
+Task 72 done with no error 
+After insert done chan
+task done, id 72 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 73 
+/var/tmp/824-502/mr20311-worker1: given Map task #73 on file 824-mrinput-73.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #73 done
+Task 73 done with no error 
+After insert done chan
+task done, id 73 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 74 
+/var/tmp/824-502/mr20311-worker1: given Map task #74 on file 824-mrinput-74.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #74 done
+Task 74 done with no error 
+After insert done chan
+task done, id 74 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 75 
+/var/tmp/824-502/mr20311-worker1: given Map task #75 on file 824-mrinput-75.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #75 done
+Task 75 done with no error 
+After insert done chan
+task done, id 75 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 76 
+/var/tmp/824-502/mr20311-worker1: given Map task #76 on file 824-mrinput-76.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #76 done
+Task 76 done with no error 
+After insert done chan
+task done, id 76 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 77 
+/var/tmp/824-502/mr20311-worker1: given Map task #77 on file 824-mrinput-77.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #77 done
+Task 77 done with no error 
+After insert done chan
+task done, id 77 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 78 
+/var/tmp/824-502/mr20311-worker1: given Map task #78 on file 824-mrinput-78.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #78 done
+Task 78 done with no error 
+After insert done chan
+task done, id 78 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 79 
+/var/tmp/824-502/mr20311-worker1: given Map task #79 on file 824-mrinput-79.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #79 done
+Task 79 done with no error 
+After insert done chan
+task done, id 79 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 80 
+/var/tmp/824-502/mr20311-worker1: given Map task #80 on file 824-mrinput-80.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #80 done
+Task 80 done with no error 
+After insert done chan
+task done, id 80 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 81 
+/var/tmp/824-502/mr20311-worker1: given Map task #81 on file 824-mrinput-81.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #81 done
+Task 81 done with no error 
+After insert done chan
+task done, id 81 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 82 
+/var/tmp/824-502/mr20311-worker1: given Map task #82 on file 824-mrinput-82.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #82 done
+Task 82 done with no error 
+After insert done chan
+task done, id 82 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 83 
+/var/tmp/824-502/mr20311-worker1: given Map task #83 on file 824-mrinput-83.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #83 done
+Task 83 done with no error 
+After insert done chan
+task done, id 83 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 84 
+/var/tmp/824-502/mr20311-worker1: given Map task #84 on file 824-mrinput-84.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #84 done
+Task 84 done with no error 
+After insert done chan
+task done, id 84 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 85 
+/var/tmp/824-502/mr20311-worker1: given Map task #85 on file 824-mrinput-85.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #85 done
+Task 85 done with no error 
+After insert done chan
+task done, id 85 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 86 
+/var/tmp/824-502/mr20311-worker1: given Map task #86 on file 824-mrinput-86.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #86 done
+Task 86 done with no error 
+After insert done chan
+task done, id 86 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 87 
+/var/tmp/824-502/mr20311-worker1: given Map task #87 on file 824-mrinput-87.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #87 done
+Task 87 done with no error 
+After insert done chan
+task done, id 87 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 88 
+/var/tmp/824-502/mr20311-worker1: given Map task #88 on file 824-mrinput-88.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #88 done
+Task 88 done with no error 
+After insert done chan
+task done, id 88 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 89 
+/var/tmp/824-502/mr20311-worker1: given Map task #89 on file 824-mrinput-89.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #89 done
+Task 89 done with no error 
+After insert done chan
+task done, id 89 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 90 
+/var/tmp/824-502/mr20311-worker1: given Map task #90 on file 824-mrinput-90.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #90 done
+Task 90 done with no error 
+After insert done chan
+task done, id 90 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 91 
+/var/tmp/824-502/mr20311-worker1: given Map task #91 on file 824-mrinput-91.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #91 done
+Task 91 done with no error 
+After insert done chan
+task done, id 91 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 92 
+/var/tmp/824-502/mr20311-worker1: given Map task #92 on file 824-mrinput-92.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #92 done
+Task 92 done with no error 
+After insert done chan
+task done, id 92 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 93 
+/var/tmp/824-502/mr20311-worker1: given Map task #93 on file 824-mrinput-93.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #93 done
+Task 93 done with no error 
+After insert done chan
+task done, id 93 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 94 
+/var/tmp/824-502/mr20311-worker1: given Map task #94 on file 824-mrinput-94.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #94 done
+Task 94 done with no error 
+After insert done chan
+task done, id 94 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 95 
+/var/tmp/824-502/mr20311-worker1: given Map task #95 on file 824-mrinput-95.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #95 done
+Task 95 done with no error 
+After insert done chan
+task done, id 95 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 96 
+/var/tmp/824-502/mr20311-worker1: given Map task #96 on file 824-mrinput-96.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #96 done
+Task 96 done with no error 
+After insert done chan
+task done, id 96 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 97 
+/var/tmp/824-502/mr20311-worker1: given Map task #97 on file 824-mrinput-97.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #97 done
+Task 97 done with no error 
+After insert done chan
+task done, id 97 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 98 
+/var/tmp/824-502/mr20311-worker1: given Map task #98 on file 824-mrinput-98.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #98 done
+Task 98 done with no error 
+After insert done chan
+task done, id 98 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 99 
+/var/tmp/824-502/mr20311-worker1: given Map task #99 on file 824-mrinput-99.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #99 done
+Task 99 done with no error 
+After insert done chan
+task done, id 99 
+Schedule: Map phase done
+Schedule: 50 Reduce tasks (100 I/Os)
+Do schedule...
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 20 
+/var/tmp/824-502/mr20311-worker1: given Map task #20 on file 824-mrinput-20.txt (nios: 50)
+/var/tmp/824-502/mr20311-worker1: Map task #20 done
+Task 20 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 0 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #0 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #0 done
+Task 0 done with no error 
+After insert done chan
+task done, id 0 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 1 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #1 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #1 done
+Task 1 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 2 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #2 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #2 done
+Task 2 done with no error 
+After insert done chan
+task done, id 2 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 3 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #3 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #3 done
+Task 3 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 4 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #4 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #4 done
+Task 4 done with no error 
+After insert done chan
+task done, id 4 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 5 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #5 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #5 done
+Task 5 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 6 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #6 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #6 done
+Task 6 done with no error 
+After insert done chan
+task done, id 6 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 7 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #7 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #7 done
+Task 7 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 8 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #8 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #8 done
+Task 8 done with no error 
+After insert done chan
+task done, id 8 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 9 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #9 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #9 done
+Task 9 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 10 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #10 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #10 done
+Task 10 done with no error 
+After insert done chan
+task done, id 10 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 11 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #11 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #11 done
+Task 11 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 12 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #12 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #12 done
+Task 12 done with no error 
+After insert done chan
+task done, id 12 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 13 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #13 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #13 done
+Task 13 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 14 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #14 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #14 done
+Task 14 done with no error 
+After insert done chan
+task done, id 14 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 15 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #15 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #15 done
+Task 15 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 16 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #16 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #16 done
+Task 16 done with no error 
+After insert done chan
+task done, id 16 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 17 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #17 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #17 done
+Task 17 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 18 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #18 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #18 done
+Task 18 done with no error 
+After insert done chan
+task done, id 18 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 19 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #19 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #19 done
+Task 19 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 20 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #20 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #20 done
+Task 20 done with no error 
+After insert done chan
+task done, id 20 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 21 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #21 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #21 done
+Task 21 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 22 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #22 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #22 done
+Task 22 done with no error 
+After insert done chan
+task done, id 22 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 23 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #23 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #23 done
+Task 23 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 24 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #24 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #24 done
+Task 24 done with no error 
+After insert done chan
+task done, id 24 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 25 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #25 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #25 done
+Task 25 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 26 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #26 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #26 done
+Task 26 done with no error 
+After insert done chan
+task done, id 26 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 27 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #27 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #27 done
+Task 27 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 28 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #28 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #28 done
+Task 28 done with no error 
+After insert done chan
+task done, id 28 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 29 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #29 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #29 done
+Task 29 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 30 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #30 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #30 done
+Task 30 done with no error 
+After insert done chan
+task done, id 30 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 31 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #31 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #31 done
+Task 31 done with no error 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 32 
+After insert done chan
+/var/tmp/824-502/mr20311-worker1: given Reduce task #32 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #32 done
+Task 32 done with no error 
+After insert done chan
+task done, id 32 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 33 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #33 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #33 done
+Task 33 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 34 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #34 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #34 done
+Task 34 done with no error 
+After insert done chan
+task done, id 34 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 35 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #35 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #35 done
+Task 35 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 36 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #36 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #36 done
+Task 36 done with no error 
+After insert done chan
+task done, id 36 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 37 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #37 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #37 done
+Task 37 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 38 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #38 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #38 done
+Task 38 done with no error 
+After insert done chan
+task done, id 38 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 39 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #39 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #39 done
+Task 39 done with no error 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 40 
+After insert done chan
+/var/tmp/824-502/mr20311-worker1: given Reduce task #40 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #40 done
+Task 40 done with no error 
+After insert done chan
+task done, id 40 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 41 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #41 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #41 done
+Task 41 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 42 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #42 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #42 done
+Task 42 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 43 
+task done, id 42 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #43 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #43 done
+Task 43 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 44 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #44 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #44 done
+Task 44 done with no error 
+After insert done chan
+task done, id 44 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 45 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #45 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #45 done
+Task 45 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 46 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #46 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #46 done
+Task 46 done with no error 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 47 
+After insert done chan
+task done, id 46 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #47 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #47 done
+Task 47 done with no error 
+After insert done chan
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 48 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #48 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #48 done
+Task 48 done with no error 
+After insert done chan
+task done, id 48 
+Valid worker /var/tmp/824-502/mr20311-worker1 doing task 49 
+/var/tmp/824-502/mr20311-worker1: given Reduce task #49 on file  (nios: 100)
+/var/tmp/824-502/mr20311-worker1: Reduce task #49 done
+Task 49 done with no error 
+After insert done chan
