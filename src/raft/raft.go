@@ -554,11 +554,9 @@ func (rf *Raft) bgRPCCall() {
 	}
 }
 
-//resetElectionTimer is thread safe. It require the raft's lock, so do not use
-//it into a lock context
+//resetElectionTimer resets election timeout.
+//Don't need to consider thread safety?
 func (rf *Raft) resetElectionTimer() {
-	rf.mu.Lock()
-	defer rf.mu.Unlock()
 	ls.Debugf("Peer #%d reset election timer", rf.me)
 	rf.electionTimer.Reset(time.Duration(rf.electionTimeout) * time.Millisecond)
 }

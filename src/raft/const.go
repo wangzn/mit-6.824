@@ -2,6 +2,12 @@ package raft
 
 import "github.com/Sirupsen/logrus"
 
+type RaftState int
+
+type RaftEvent int
+
+type RaftRPCMethod string
+
 const (
 	votedForNone = -1
 
@@ -18,12 +24,6 @@ const (
 	stCandidate
 	stLeader
 )
-
-type RaftState int
-
-type RaftEvent int
-
-type RaftRPCMethod string
 
 const (
 	rpcMethodRequestVote   = "Raft.RequestVote"
