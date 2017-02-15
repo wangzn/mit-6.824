@@ -5,12 +5,12 @@ import "github.com/Sirupsen/logrus"
 const (
 	votedForNone = -1
 
-	electionTimeoutUpper         = 500 //ms
-	electionTiemoutLower         = 350 //ms
-	appendEntriesDefaultInterval = 50  //ms
-	defaultRPCChannelSize        = 1024
-	defaultEventChannelSize      = 1024
-	defaultLogLevel              = logrus.DebugLevel
+	electionTimeoutUpper      = 500 //ms
+	electionTiemoutLower      = 350 //ms
+	defaultHeartbeatsInterval = 50  //ms
+	defaultRPCChannelSize     = 1024
+	defaultEventChannelSize   = 1024
+	defaultLogLevel           = logrus.DebugLevel
 )
 
 const (

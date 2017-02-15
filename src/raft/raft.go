@@ -393,12 +393,10 @@ func Make(peers []*labrpc.ClientEnd, me int,
 	rf.rpcCallChan = make(chan rpcReq, defaultRPCChannelSize)      //magic number...
 	rf.electionTimeout = rf.getElectionTimeout()
 	ls.Debugf("Peer #%d init with election timeout of %d ", me, rf.electionTimeout)
+
 	go rf.eventLoop()
-	//go rf.doElection()
-	//go rf.doAppendEntries()
 	go rf.bgElectionTimer()
-	go rf.bgAppendEntriesSync()
-	go rf.eventLoop()
+	go rf.bgHeartbeatsSync()
 	go rf.bgRPCCall()
 
 	// initialize from state persisted before a crash
@@ -529,12 +527,12 @@ func (rf *Raft) bgElectionTimer() {
 	}
 }
 
-//bgAppendEntriesSync is a background ticker for
-//default AppendEntries RPC from leader
-func (rf *Raft) bgAppendEntriesSync() {
+//bgHeartbeatsSync is a background ticker for
+//default heartbeats RPC from leader
+func (rf *Raft) bgHeartbeatsSync() {
 	if rf.appendEntriesTicker == nil {
 		rf.appendEntriesTicker = time.NewTicker(
-			time.Duration(appendEntriesDefaultInterval) * time.Millisecond)
+			time.Duration(defaultHeartbeatsInterval) * time.Millisecond)
 	}
 	for {
 		//log.Printf("Peer #%d append entries trigger", rf.me)
