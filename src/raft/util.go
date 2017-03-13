@@ -2,9 +2,10 @@ package raft
 
 import "log"
 
-// Debugging
+// Debug defines a flag.
 const Debug = 0
 
+// DPrintf prints debug message.
 func DPrintf(format string, a ...interface{}) (n int, err error) {
 	if Debug > 0 {
 		log.Printf(format, a...)
